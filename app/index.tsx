@@ -13,7 +13,8 @@ cssInterop(LegendList, {
 export default function Screen() {
   return (
     <View>
-      <Text className="text-5xl text-red-400 underline">ALKDJSDFSDFASKL</Text>
+      <Text className="text-2xl">Default Rubik</Text>
+      <Text className="font-rubik text-2xl font-light">Default Rubik</Text>
     </View>
   );
 }

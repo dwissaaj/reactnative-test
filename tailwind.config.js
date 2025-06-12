@@ -8,6 +8,14 @@ module.exports = {
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
+      fontFamily: {
+        rubik: ['Rubik'],
+        system: platformSelect({
+          ios: 'System', // Standard iOS system font
+          android: 'sans-serif', // Standard Android sans-serif font
+          default: 'ui-sans-serif', // Default Tailwind system font
+        }),
+      },
       colors: {
         border: withOpacity('border'),
         input: withOpacity('input'),

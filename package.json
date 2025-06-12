@@ -48,7 +48,9 @@
     "react-native-uitextview": "2.0.0-rc.10",
     "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "^0.20.0",
-    "tailwind-merge": "^2.2.1"
+    "tailwind-merge": "^2.2.1",
+    "expo-font": "~13.3.1",
+    "expo-splash-screen": "~0.30.9"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

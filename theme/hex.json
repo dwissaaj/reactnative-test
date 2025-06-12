@@ -1,4 +1,6 @@
 {
-    "primary": "#7AA659"  ,
-    "secondary": "#A47149" , "accent" : "#37526D", "muted": "#D4D4C5"
+  "primary": "#7AA659",
+  "secondary": "#A47149",
+  "accent": "#37526D",
+  "muted": "#D4D4C5"
 }
